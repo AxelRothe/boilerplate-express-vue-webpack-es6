@@ -1,7 +1,7 @@
 /**
  * Entry Point for WebApp
  */
-import config from "../../build/config.json";
+import config from "../../assets/config.json";
 
 //start Vue UI
 import UI from "../ui";
