@@ -1,0 +1,27 @@
+{
+    "name": "boilerplate-express-vue-webpack-es6",
+    "version": "1.0.0",
+    "description": "boilerplate for a nodejs+express, vue-webpack-es6 combo",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.dev.js",
+        "start": "webpack --config webpack.dev.js; node index",
+        "dist": "webpack --config webpack.prod.js; node index"
+    },
+    "author": "Axel Rothe",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.2",
+        "prettier": "^2.5.1",
+        "vue": "^2.6.14"
+    },
+    "devDependencies": {
+        "webpack-cli": "^4.9.1",
+        "webpack-merge": "^5.8.0",
+        "webpack-obfuscator": "^0.6.2"
+    },
+    "prettier": {
+        "printWidth": 120,
+        "tabWidth": 4
+    }
+}
